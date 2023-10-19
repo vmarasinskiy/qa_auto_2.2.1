@@ -3,7 +3,7 @@ function increaseBalance(x, y) {
   return x;
 }
 
-function decreaseBalance(x) {
+function decreaseBalance(x, y) {
 x = x - y;
 return x;
 }
