@@ -1,10 +1,10 @@
 function increaseBalance(x, y) {
-  x +=y;
+  x = ++y;
   return x;
 }
 
 function decreaseBalance(x, y) {
-x -=y;
+x = --y;
 return x;
 }
 
