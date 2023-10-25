@@ -21,6 +21,26 @@ id: 4,
 name: 'Olga',
 scorePoints: 2356
 },
+{
+    id: 5,
+    name: 'Maria',
+    scorePoints: 4999.99
+    },
+{
+    id: 5,
+    name: 'Maria',
+    scorePoints: 5000.00
+    },
+{
+id: 5,
+name: 'Maria',
+scorePoints: 5000.99
+},
+{
+id: 5,
+name: 'Maria',
+scorePoints: 5001.00
+},
 
 ];
 
