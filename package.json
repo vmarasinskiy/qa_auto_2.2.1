@@ -2,7 +2,7 @@
   "name": "2_4_3.js",
   "version": "1.0.0",
   "description": "Some project",
-  "main": "calculations.js",
+  "main": "2_4_3.js",
   "type": "module",
   "dependencies": {
     "assertion-error": "^1.1.0",
