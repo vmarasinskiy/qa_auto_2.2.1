@@ -1,10 +1,12 @@
 const calculateBonus = (a, b) => {
-    let bonus;
-    const sum = a + b;
-    debugger;
-    sum > 50 ? (bonus = 50) : (bonus = sum);
-    debugger;
-    return bonus;
-    };
+  let bonus;
+  const sum = a + b;
+  //Проверяем условие
+  sum > 50 ? (bonus = 50) : (bonus = sum);
+  //Проверяем перед возвратом значения
+  return bonus;
+};
 
-    console.log(calculateBonus);
+const result = calculateBonus(30, 40);
+
+console.log(result);
