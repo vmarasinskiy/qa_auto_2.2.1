@@ -13,7 +13,20 @@ let expencesExamples = [
 
    }
  
-   expencesExamples[1]["yearlyExpences"].forEach(function(value, index) {
+   expencesExamples[0]["yearlyExpences"].forEach(function(value, index) {
+    if (value <= 1000) {
+                const monthName = getMonthName(index);
+                console.log(`element ${value}, Date: ${monthName}`);
+    }
+});
+
+    expencesExamples[1]["yearlyExpences"].forEach(function(value, index) {
+    if (value <= 1000) {
+                const monthName = getMonthName(index);
+                console.log(`element ${value}, Date: ${monthName}`);
+    }
+});
+expencesExamples[2]["yearlyExpences"].forEach(function(value, index) {
     if (value <= 1000) {
                 const monthName = getMonthName(index);
                 console.log(`element ${value}, Date: ${monthName}`);
