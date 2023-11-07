@@ -7,6 +7,8 @@ const calculateBonus = (a, b) => {
   return bonus;
 };
 
-const result = calculateBonus(30, 40);
+const result = calculateBonus(3, 4);
 
 console.log(result);
+
+module.exports = calculateBonus;
