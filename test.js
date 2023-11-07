@@ -24,6 +24,11 @@ test('Тест на null', ()=>{
     expect(calculateBonus(null)).toBe(null);
 });
 
-test('Тест на string', ()=>{
-    expect(calculateBonus(string)).toBe(string);
+test('Тест на текст', ()=>{
+    expect(calculateBonus('some string')).toBe('В вашем коде есть несколько ошибок и недоразумений:');
+});
+
+test('Тест на Math.max', ()=>{
+    const maxValue = Math.max(10, 20, 30);
+    expect(maxValue).toBe(30);
 });
