@@ -29,6 +29,6 @@ test('Тест на текст', ()=>{
 });
 
 test('Тест на Math.max', ()=>{
-    const maxValue = Math.max(10, 20, 30);
-    expect(maxValue).toBe(30);
+    const maxValue = Math.max(10, 20, 50);
+    expect(maxValue).toBe(50);
 });
